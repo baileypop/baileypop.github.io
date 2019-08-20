@@ -4,8 +4,8 @@
 :root {
   --main-white: #F0F0F0;
   --main-blue: #26A896;
-  --main-yellow: #1A8090;
-  --main-rose: #073F63;
+  --main-projects: #1A8090;
+  --main-gray: #808080;
 }
 
 /* Base reset */
@@ -144,7 +144,7 @@ img {
 }
 
 .nav-list a:hover {
-  background: var(--main-yellow);
+  background: var(--main-projects);
 }
 
 /* Welcome section */
@@ -172,7 +172,7 @@ img {
 .projects-section {
   text-align: center;
   padding: 10rem 2rem;
-  background: var(--main-yellow);
+  background: var(--main-projects);
 }
 
 .projects-section-header {
@@ -209,13 +209,13 @@ img {
 }
 
 .project {
-  background: var(--main-rose);
+  background: var(--main-gray);
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
 }
 
 .code {
-  color: var(--main-rose);
+  color: var(--main-gray);
   transition: color 0.3s ease-out;
 }
 
@@ -242,7 +242,7 @@ img {
 
 .btn-show-all {
   font-size: 2.5rem;
-  background: var(--main-rose);
+  background: var(--main-gray);
   transition: background 0.3s ease-out;
 }
 
@@ -262,7 +262,7 @@ img {
   width: 100%;
   height: 80vh;
   padding: 0 2rem;
-  background: var(--main-rose);
+  background: var(--main-gray);
 }
 
 .contact-section-header > h2 {
@@ -305,7 +305,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
   padding: 2rem;
-  background: var(--main-rose);
+  background: var(--main-gray);
   border-top: 4px solid var(--main-blue);
 }
 
