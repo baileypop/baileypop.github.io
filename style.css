@@ -92,6 +92,7 @@ h1 {
     font-family: "Playwrite NZ", serif;
   font-size: 7rem;
   font-weight: 100;
+  font-optical-sizing: auto;
 }
 
 h2 {
@@ -172,7 +173,6 @@ img {
   font-size: 4rem;
   font-weight: 100;
   font-style: italic;
-  font-optical-sizing: auto;
   color: var(--main-white);
   margin-top: 3rem;
 }
