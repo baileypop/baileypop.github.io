@@ -3,9 +3,9 @@
 
 :root {
   --main-white: #F0F0F0;
-  --main-blue: #26A896;
-  --main-projects: #1A8090;
-  --main-gray: #666666;
+  --main-blue: #8D797A;
+  --main-projects: #55464E;
+  --main-gray: #799590;
 }
 
 /* Base reset */
@@ -118,7 +118,7 @@ img {
   left: 0;
   width: 100%;
   background: var(--main-blue);
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
   z-index: 10;
 }
 
@@ -156,12 +156,15 @@ img {
   align-items: center;
   width: 100%;
   height: 100vh;
-  background-color: #000;
-  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  /*background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);*/
+  background: url(https://live.staticflickr.com/65535/54331042492_6783ec8f9f_h.jpg);
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .welcome-section > p {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 200;
   font-style: italic;
   color: var(--main-blue);
