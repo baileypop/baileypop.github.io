@@ -87,7 +87,7 @@ h2 {
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 9rem;
 }
 
 h2 {
@@ -164,7 +164,7 @@ img {
 }
 
 .welcome-section > p {
-  font-size: 3.5rem;
+  font-size: 5.5rem;
   font-weight: 200;
   font-style: italic;
   color: var(--main-blue);
