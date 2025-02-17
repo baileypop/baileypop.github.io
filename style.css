@@ -1,4 +1,6 @@
-@import "https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap";
+@import url('https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap');
 
 
 :root {
@@ -6,6 +8,7 @@
   --main-blue: #8D797A;
   --main-projects: #55464E;
   --main-gray: #799590;
+  /*--main-p1: #7d2f2f;*/
 }
 
 /* Base reset */
@@ -81,17 +84,19 @@ body {
 
 h1,
 h2 {
-  font-family: 'Darker Grotesque', sans-serif;
-  font-weight: 400;
+  /*font-family: 'Darker Grotesque', sans-serif;*/
   text-align: center;
 }
 
 h1 {
-  font-size: 9rem;
+    font-family: "Playwrite NZ", serif;
+  font-size: 7rem;
+  font-weight: 100;
 }
 
 h2 {
   font-size: 4.2rem;
+  font-weight: 400;
 }
 
 ul {
@@ -164,11 +169,14 @@ img {
 }
 
 .welcome-section > p {
-  font-size: 5.5rem;
-  font-weight: 200;
+  font-size: 4rem;
+  font-weight: 100;
   font-style: italic;
-  color: var(--main-blue);
+  font-optical-sizing: auto;
+  color: var(--main-white);
+  margin-top: 3rem;
 }
+
 
 /* Projects section */
 
@@ -234,7 +242,7 @@ img {
 
 .project-title {
   font-size: 2.2rem;
-  padding: 2rem 0.5rem;
+  padding: 2rem 1rem;
 }
 
 .btn {
